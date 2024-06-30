@@ -7,9 +7,9 @@
 * **GitHub:** [iceolga09](https://github.com/iceolga09)
 * **LinkedIn:** Olga Svirid
 ## About me
-Currently I am studying at BSUIR with a degree in Electronic Marketing. I am finishing my probationary period as a SEO specialist and starting next month I will be joining the main staff. I decided to try my hand at website design.
+I am studying at BSUIR with a degree in Electronic Marketing. I am finishing my probationary period as a SEO specialist and starting next month I will be joining the main staff. I decided to try my hand at website design.
 ## Skills
-* HTML
+* HTML Basics
 * Java
 * C
 * C#
