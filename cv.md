@@ -6,8 +6,10 @@
 * **Email:** sviridolga09@gmai.com
 * **GitHub:** [iceolga09](https://github.com/iceolga09)
 * **LinkedIn:** Olga Svirid
+  
 ## About me
 I am studying at BSUIR with a degree in Electronic Marketing. I am finishing my probationary period as a SEO specialist and starting next month I will be joining the main staff. I decided to try my hand at website design.
+
 ## Skills
 * HTML Basics
 * Java
@@ -17,6 +19,7 @@ I am studying at BSUIR with a degree in Electronic Marketing. I am finishing my 
 * Visual Studio
 * IntelijIdea
 * Figma
+  
 ## Code example
 This code does not execute properly. Try to figure out why.
 **Result:**
@@ -26,8 +29,10 @@ function multiply( a, b){
   return mult;
 }
 ```
+
 ## Education
 BSUIR - Digital Marketing
+
 ## Languages
 * Belorussian - native
 * Russian - native
