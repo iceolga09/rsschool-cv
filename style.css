@@ -14,7 +14,7 @@ body {
     font-family: Poppins, sans-serif;
     line-height: 1.6;
     background-color: #f0f0f0;
-    color: #333;git 
+    color: #333;
 
 }
 
@@ -100,8 +100,8 @@ a:hover {
 }
 
 .profile-photo {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 10%;
     object-fit: cover;
     margin-bottom: 20px;
@@ -157,3 +157,20 @@ a:hover {
         grid-template-columns: 1fr;
     }
 }
+pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    margin: 0 auto;
+    padding: 20px;
+}
+code {
+    font-family: 'Courier New', Courier, monospace;
+}
+.footer img {
+    width: 100px; /* Устанавливаем ширину */
+    height: auto; /* Автоматический расчет высоты для сохранения пропорций */
+    vertical-align: middle; /* Выравниваем изображение по вертикали */
+}
+
