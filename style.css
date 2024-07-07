@@ -1,4 +1,8 @@
 /* Reset CSS */
+@font-face {
+    font-family: Poppins;
+    src: url("assets/fonts/Poppins-SemiBold.ttf");
+}
 * {
     margin: 0;
     padding: 0;
@@ -7,35 +11,38 @@
 
 /* Основные стили */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Poppins, sans-serif;
     line-height: 1.6;
     background-color: #f0f0f0;
-    color: #333;
-    margin: 20px;
+    color: #333;git 
+
 }
 
 .container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden; /* для фиксации потока элементов */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 /* Стили для заголовков */
+h1, h2 {
+    font-weight: 600;
+    color: #333;
+}
+
 h1 {
     font-size: 2.5rem;
-    line-height: 1.2;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 h2 {
     font-size: 2rem;
-    line-height: 1.3;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 /* Стили для параграфов */
 p {
-    font-size: 1.6rem;
+    font-size: 1rem;
     margin-bottom: 16px;
 }
 
@@ -49,19 +56,104 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Пример стилей для кнопок */
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-align: center;
-    border: none;
-    cursor: pointer;
-    border-radius: 4px;
-    transition: background-color 0.3s;
+.header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+    margin-bottom: 20px;
 }
 
-.button:hover {
-    background-color: #0056b3;
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-link {
+    font-size: 1rem;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+.main-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+}
+
+.column {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background-color: #e0e0e0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .nav-list {
+        flex-direction: column;
+    }
+    
+    .nav-item {
+        margin: 5px 0;
+    }
+    
+    .columns {
+        grid-template-columns: 1fr;
+    }
 }
